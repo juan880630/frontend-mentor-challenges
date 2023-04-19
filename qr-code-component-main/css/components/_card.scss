@@ -1,0 +1,30 @@
+@use "sass:math"; 
+
+.card {
+    max-width: 335px;
+    padding: $base-padding * 1.5;
+    border-radius: $base-border-radius;
+    box-shadow: $base-box-shadow;
+    background-color: $otro-mas;
+
+    .card-header {
+        .card-img {
+            display: block;
+            border-radius: math.div($base-border-radius, 2);
+        }
+    }
+
+    .card-body {
+        padding: $base-padding * 2.5 $base-padding * 2;
+
+        .card-title {
+            font-weight: 700;
+            color: $secondary;
+            margin-bottom: $base-margin * 1.5;
+        }
+
+        .card-text {
+            font-weight: 400;
+        }
+    } 
+}

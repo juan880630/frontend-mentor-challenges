@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding: 20px;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(216, 12%, 8%);
+}
+
+main {
+    max-width: 335px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+ol {
+    list-style-type: none;
+}
+
+.star, h1, ol {
+    margin-bottom: 20px;
+}
+
+.star {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: hsl(216, 9%, 22%) url("./images/icon-star.svg") no-repeat center center / 35%;
+}
+
+article {
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: x-large;
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    line-height: 1.5;
+}
+
+.select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select li {
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: hsl(216, 9%, 22%);
+}
+
+.select li:focus {
+    outline: none;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(217, 12%, 63%);
+}
+
+.select li:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+.select li.active {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(25, 97%, 53%);
+}
+
+button:hover {
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(0, 0%, 100%);
+}
+
+/**/
+
+.image {
+    height: 108px;
+    margin-bottom: 20px;
+    background: url("./images/illustration-thank-you.svg") no-repeat center;
+}
+
+section:nth-child(2) {
+    text-align: center;
+}
+
+span.output {
+    display: inline-block;
+    margin-bottom: 27.8px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(216, 9%, 22%);
+}
+
+section:nth-child(2) article {
+    margin-bottom: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        max-width: 400px;
+        padding: 30px;
+    }
+}

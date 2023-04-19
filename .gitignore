@@ -1,0 +1,36 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+# Project /product-preview-card-component-main
+/product-preview-card-component-main/design
+/product-preview-card-component-main/style-guide.md
+/product-preview-card-component-main/README-template.md
+
+# Project /results-summary-component-main
+/results-summary-component-main/design
+/results-summary-component-main/style-guide.md
+/results-summary-component-main/README-template.md
+
+# Project /interactive-rating-component-main
+/interactive-rating-component-main/design
+/interactive-rating-component-main/style-guide.md
+/interactive-rating-component-main/README-template.md
+
+# Project /qr-code-component-main
+/qr-code-component-main/design
+/qr-code-component-main/style-guide.md
+/qr-code-component-main/README-template.md
